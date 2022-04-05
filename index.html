@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Client Integration</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="js/functionalities.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Communication Clients Integrations</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#integration">Integrations</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#logs">Logs</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="login.html">Logout</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets\img\integration.png" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Initiate Integrations</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            </div>
+        </header>
+        <!-- Integration Section-->
+        <section class="page-section integration" id="integration">
+            <div class="container">
+                <!-- Integration Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Integrations</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Integration Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Integration Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="integration-item mx-auto" data-bs-toggle="modal" data-bs-target="#integrationModal1">
+                            <div class="integration-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="integration-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets\img\discord.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Integration Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="integration-item mx-auto" data-bs-toggle="modal" data-bs-target="#integrationModal2">
+                            <div class="integration-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="integration-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets\img\mail.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Integration Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="integration-item mx-auto" data-bs-toggle="modal" data-bs-target="#integrationModal3">
+                            <div class="integration-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="integration-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets\img\slack.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Logs Section-->
+        <section class="page-section logs" id="logs">
+            <div class="container">
+                <!-- Logs Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Logs</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div div class="col-md-12 text-center">
+                    <button class="btn btn-primary btn-block row justify-content-center" onclick="showLogs()">
+                        Logs
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">This is a one-stop site to send messages, send files, scheduling messages or meeting/exam links for platforms like Gmail, Discord, Slack, etc.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">The purpose of this site is to make it easier for user to perform the basic communication tasks of discord, gmail and slack from here itself.</p></div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Ulhasnagar, Maharashtra
+                            <br />
+                            India
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About Maintainer</h4>
+                        <p class="lead mb-0">
+                            Maintainer is a Backend Developer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Your Website 2022</small></div>
+        </div>
+        <!-- Integration Modals-->
+        <!-- Integration Modal 1-->
+        <div class="integration-modal modal fade" id="integrationModal1" tabindex="-1" aria-labelledby="integrationModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Integration Modal - Title-->
+                                    <h2 class="integration-modal-title text-secondary text-uppercase mb-0">Discord</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Integration Modal - Text-->
+                                    <div class="accordion" id="accordionPanelsStayOpenOne">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                Send a Message
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                            <div class="accordion-body">
+                                                <form class="form-inline" method="post" id="sendMessageDiscord">
+                                                    <div class="mb-3">
+                                                        <label for="disabledInputDiscordOne" class="form-label">User that's Logged In</label>
+                                                        <input class="form-control disable" id="disabledInputDiscordOne" name="user" type="text" value=""></input>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="InputDiscordOne" class="form-label">Message</label>
+                                                        <input type="text" class="form-control required" id="InputDiscordOne" rows="3" name="message" required></input>
+                                                    </div>
+                                                    <button class="btn btn-primary" type="submit">
+                                                        Send
+                                                    </button>
+                                                </form>
+                                                <script>
+                                                    document.getElementById("disabledInputDiscordOne").value = sessionStorage.getItem("username")
+                                                </script>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <script>
+                                            sendMessageDiscord.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/discord/message', {
+                                                    method: 'POST',
+                                                    body: new FormData(sendMessageDiscord)
+                                                    }
+                                                );
+                                                if (response.status === 200) {
+                                                    alert("Message sent successfully.")
+                                                }
+                                                
+                                            };
+                                        </script>
+
+
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                                Send a file with a message associated to it
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                            <div class="accordion-body">
+                                                <form class="form-inline" method="post" id="sendMessageWithFileDiscord">
+                                                    <div class="mb-3">
+                                                        <label for="disabledInputDiscordTwo" class="form-label">User that's Logged In</label>
+                                                        <input class="form-control disable" id="disabledInputDiscordTwo" name="user" type="text" value=""></input>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="FormFileDiscordTwo" class="form-label">Choose a File</label>
+                                                        <input name="file" class="form-control" type="file" id="FormFileDiscordTwo" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="InputDiscordTwo" class="form-label">Message</label>
+                                                        <input name="message" class="form-control" id="InputDiscordTwo" rows="3" required></textarea>
+                                                    </div>
+                                                    <button class="btn btn-primary" type="submit">
+                                                        Send
+                                                    </button>
+                                                </form>
+                                                <script>
+                                                    document.getElementById("disabledInputDiscordTwo").value = sessionStorage.getItem("username")
+                                                </script>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <script>
+                                            sendMessageWithFileDiscord.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/discord/file_with_message', {
+                                                    method: 'POST',
+                                                    body: new FormData(sendMessageWithFileDiscord)
+                                                    }
+                                                );
+                                                if (response.status === 200) {
+                                                    alert("Message and File are sent successfully.")
+                                                }
+                                                
+                                            };
+                                        </script>
+
+
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                                Send a link with a message associated to it
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                            <div class="accordion-body">
+                                                <form class="form-inline" method="post" id="sendLinkWithMessageDiscord">
+                                                    <div class="mb-3">
+                                                        <label for="disabledInputDiscordThree" class="form-label">User that's Logged In</label>
+                                                        <input class="form-control disable" id="disabledInputDiscordThree" name="user" type="text" value=""></input>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="InputMessageDiscordThree" class="form-label">Message</label>
+                                                        <input class="form-control" id="InputMessageDiscordThree" rows="3" name="message" required></input>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="InputLinkDiscordThree" class="form-label">Link</label>
+                                                        <input type="url" class="form-control" id="InputLinkDiscordThree" rows="3" name="link" required></input>
+                                                    </div>
+                                                    <button class="btn btn-primary" type="submit">
+                                                        Send
+                                                    </button>
+                                                </form>
+                                                <script>
+                                                    document.getElementById("disabledInputDiscordThree").value = sessionStorage.getItem("username")
+                                                </script>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <script>
+                                            sendLinkWithMessageDiscord.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/discord/link_with_message', {
+                                                    method: 'POST',
+                                                    body: new FormData(sendLinkWithMessageDiscord)
+                                                    }
+                                                );
+                                                if (response.status === 200) {
+                                                    alert("Message with Link sent successfully.")
+                                                }
+                                            };
+                                        </script>
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                                    Schedule a Message
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                                <div class="accordion-body">
+                                                    <form class="form-inline" method="post" id="scheduleMessageDiscord">
+                                                        <div class="mb-3">
+                                                            <label for="disabledInputDiscordFour" class="form-label">User that's Logged In</label>
+                                                            <input class="form-control disable" id="disabledInputDiscordFour" name="user" type="text" value=""></input>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputMessageDiscordFour" class="form-label">Message</label>
+                                                            <input class="form-control" id="InputMessageDiscordFour" rows="3" name="message" required></input>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputDateTimeDiscordFour">Schedule For</label>
+                                                            <input type="datetime-local" id="InputDateTimeDiscordFour" rows="3" name="date_and_time" required></input>
+                                                        </div>
+                                                        <button class="btn btn-primary" type="submit" id="panelsStayOpen-collapseFour-btn-discord">
+                                                            Send
+                                                        </button>
+                                                    </form>
+                                                    <script>
+                                                        document.getElementById("disabledInputDiscordFour").value = sessionStorage.getItem("username")
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <script>
+                                            scheduleMessageDiscord.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/discord/schedule_message', {
+                                                    method: 'POST',
+                                                    body: new FormData(scheduleMessageDiscord)
+                                                    }
+                                                );
+
+                                                if (response.status === 200) {
+                                                    alert('Message scheduled Successfully')
+                                                }
+
+                                                else if (response.status === 404) {
+                                                    alert('Past is out of your hands')
+                                                }
+                                            };
+                                        </script>
+
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                                    Schedule a link with a message associated to it
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                                                <div class="accordion-body">
+                                                    <form class="form-inline" method="post" id="scheduleLinkWithMessageDiscord">
+                                                        <div class="mb-3">
+                                                            <label for="disabledInputDiscordFive" class="form-label">User that's Logged In</label>
+                                                            <input class="form-control disable" id="disabledInputDiscordFive" name="user" type="text" value=""></input>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputMessageDiscordFive" class="form-label">Message</label>
+                                                            <input class="form-control" id="InputMessageDiscordFive" rows="3" name="message" required></input>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputLinkDiscordFive" class="form-label">Link</label>
+                                                            <input type="url" class="form-control" id="InputLinkDiscordFive" rows="3" name="link" required></input>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputDateTimeDiscordFive">Schedule For</label>
+                                                            <input type="datetime-local" id="InputDateTimeDiscordFive" rows="3" name="date_and_time" required></input>
+                                                        </div>
+                                                        <button class="btn btn-primary" type="submit" id="panelsStayOpen-collapseFive-btn-discord">
+                                                            Send
+                                                        </button>
+                                                    </form>
+                                                </div>
+                                                <script>
+                                                    document.getElementById("disabledInputDiscordFive").value = sessionStorage.getItem("username")
+                                                </script>
+                                            </div>
+                                            <script>
+                                                scheduleLinkWithMessageDiscord.onsubmit = async (e) => {
+                                                    e.preventDefault();
+                                                    let response = await fetch('http://127.0.0.1:8000/discord/schedule_link_with_message', {
+                                                        method: 'POST',
+                                                        body: new FormData(scheduleLinkWithMessageDiscord)
+                                                        }
+                                                    );
+    
+                                                    if (response.status === 200) {
+                                                        alert('Message with a link scheduled Successfully')
+                                                    }
+    
+                                                    else if (response.status === 404) {
+                                                        alert('Past is out of your hands')
+                                                    }
+                                                };
+                                            </script>
+                                        </div>
+                                    </div>
+                                    
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" style="margin-top: 3%;">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Integration Modal 2-->
+        <div class="integration-modal modal fade" id="integrationModal2" tabindex="-1" aria-labelledby="integrationModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                <!-- Integration Modal - Title-->
+                                <h2 class="integration-modal-title text-secondary text-uppercase mb-0">Mail</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                    <!-- Integration Modal - Text-->
+                                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                Send a Message
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                            <div class="accordion-body">
+                                                <form class="form-inline" method="post" id="sendMessageMail">
+                                                    <div class="mb-3">
+                                                        <label for="disabledInputMailOne" class="form-label">User that's Logged In</label>
+                                                        <input class="form-control disable" id="disabledInputMailOne" name="user" type="text" value="">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="formFileMailOne" class="form-label">Provide csv file consisting of recepient Email ID's</label>
+                                                        <input class="form-control" type="file" id="formFileMailOne" name="email" accept=".csv" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="InputSubjectMailOne" class="form-label">Subject of your Mail</label>
+                                                        <input type="text" class="form-control" id="InputSubjectMailOne" name="subject" required>
+                                                      </div>
+                                                    <div class="mb-3">
+                                                        <label for="InputBodyMailOne" class="form-label">Body of your Mail</label>
+                                                        <textarea class="form-control" id="InputBodyMailOne" rows="3" name="body" required></textarea>
+                                                    </div>
+                                                    <button class="btn btn-primary" type="submit"  id="panelsStayOpen-collapseOne-btn-mail">
+                                                        Send
+                                                    </button>
+                                                </form>
+                                                <script>
+                                                    document.getElementById("disabledInputMailOne").value = sessionStorage.getItem("username")
+                                                </script>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <script>
+                                            sendMessageMail.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/email', {
+                                                    method: 'POST',
+                                                    body: new FormData(sendMessageMail)
+                                                    }
+                                                );
+                                                if (response.status === 200) {
+                                                    alert("Message was sent successfully.")
+                                                }
+                                            };
+
+                                        </script>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                                Send File/s with a message associated with it
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                            <div class="accordion-body">
+                                                <form class="form-inline" method="post" id="sendMessageWithFilesMail">
+                                                    <div class="mb-3">
+                                                        <label for="disabledInputMailTwo" class="form-label">User that's Logged In</label>
+                                                        <input class="form-control disable" id="disabledInputMailTwo" name="user" type="text" value="">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="formFileMailTwo" class="form-label">Provide csv file consisting of recepient Email ID's</label>
+                                                        <input class="form-control" type="file" id="formFileMailTwo" name="email" accept=".csv" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="InputSubjectMailTwo" class="form-label">Subject of your Mail</label>
+                                                        <input type="text" class="form-control" id="InputSubjectMailTwo" name="subject" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="InputBodyMailTwo" class="form-label">Body of your Mail</label>
+                                                        <textarea class="form-control" id="InputBodyMailTwo" rows="3" name="body" required></textarea>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="formFileTwo" class="form-label">Choose one or multiple file/s</label>
+                                                        <input class="form-control" type="file" id="formFileTwo" name="file" multiple required>
+                                                    </div>
+                                                    <button class="btn btn-primary" type="submit"  id="panelsStayOpen-collapseTwo-btn-mail">
+                                                        Send
+                                                    </button>
+                                                </form>
+                                                <script>
+                                                    document.getElementById("disabledInputMailTwo").value = sessionStorage.getItem("username")
+                                                </script>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <script>
+                                            sendMessageWithFilesMail.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/email/file_with_message', {
+                                                    method: 'POST',
+                                                    body: new FormData(sendMessageWithFilesMail)
+                                                    }
+                                                );
+                                                if (response.status === 200) {
+                                                    alert("Message with File/s sent successfully.")
+                                                }
+                                            };
+                                        </script>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                                Send Link with a Message associated to it
+                                            </button>
+                                          </h2>
+                                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                                <div class="accordion-body">
+                                                    <form class="form-inline" method="post" id="sendLinkWithMessageMail">
+                                                        <div class="mb-3">
+                                                            <label for="disabledInputMailThree" class="form-label">User that's Logged In</label>
+                                                            <input class="form-control disable" id="disabledInputMailThree" name="user" type="text" value="">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="formFileMailThree" class="form-label">Provide csv file consisting of recepient Email ID's</label>
+                                                            <input class="form-control" type="file" id="formFileMailThree" name="email" accept=".csv" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputSubjectMailThree" class="form-label">Subject of your Mail</label>
+                                                            <input type="text" class="form-control" id="InputSubjectMailThree" name="subject" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputBodyMailThree" class="form-label">Body of your Mail</label>
+                                                            <textarea class="form-control" id="InputBodyMailTwo" rows="3" name="body" required></textarea>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputLinkMailThree" class="form-label">Link</label>
+                                                            <input type="url" class="form-control" id="InputLinkMailThree" rows="3" name="link" required></input>
+                                                        </div>
+                                                        <button class="btn btn-primary" type="submit"  id="panelsStayOpen-collapseThree-btn-mail">
+                                                            Send
+                                                        </button>
+                                                    </form>
+                                                    <script>
+                                                        document.getElementById("disabledInputMailThree").value = sessionStorage.getItem("username")
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <script>
+                                            sendLinkWithMessageMail.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/email/link_with_message', {
+                                                    method: 'POST',
+                                                    body: new FormData(sendLinkWithMessageMail)
+                                                    }
+                                                );
+                                                if (response.status === 200) {
+                                                    alert("Message with Link sent successfully.")
+                                                }
+                                            };
+                                        </script>
+
+                                        
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                                Schedule a Message
+                                              </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                                <div class="accordion-body">
+                                                    <form class="form-inline" method="post" id="scheduleMessage">
+                                                        <div class="mb-3">
+                                                            <label for="disabledInputMailFour" class="form-label">User that's Logged In</label>
+                                                            <input class="form-control disable" id="disabledInputMailFour" name="user" type="text" value="">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="formFileMailFour" class="form-label">Provide csv file consisting of recepient Email ID's</label>
+                                                            <input class="form-control" type="file" id="formFileMailFour" name="email" accept=".csv" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputSubjectMailFour" class="form-label">Subject of your Mail</label>
+                                                            <input type="text" class="form-control" id="InputSubjectMailFour" name="subject" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputBodyMailFour" class="form-label">Body of your Mail</label>
+                                                            <textarea class="form-control" id="InputBodyMailFour" rows="3" name="body" required></textarea>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputDateTimeMailFour">Schedule For</label>
+                                                            <input type="datetime-local" id="InputDateTimeMailFour" rows="3" name="date_and_time" required></input>
+                                                        </div>
+                                                        <button class="btn btn-primary" type="submit"  id="panelsStayOpen-collapseFour-btn-mail">
+                                                            Send
+                                                        </button>
+                                                    </form>
+                                                    <script>
+                                                        document.getElementById("disabledInputMailFour").value = sessionStorage.getItem("username")
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <script>
+                                            scheduleMessage.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/email/schedule_message', {
+                                                    method: 'POST',
+                                                    body: new FormData(scheduleMessage)
+                                                    }
+                                                );
+
+                                                if (response.status === 200) {
+                                                    alert('Message scheduled Successfully')
+                                                }
+
+                                                else if (response.status === 404) {
+                                                    alert('Past is out of your hands')
+                                                }
+                                            };
+                                        </script>
+
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                                Schedule a Link
+                                              </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                                                <div class="accordion-body">
+                                                    <form class="form-inline" method="post" id="scheduleLink">
+                                                        <div class="mb-3">
+                                                            <label for="disabledInputMailFive" class="form-label">User that's Logged In</label>
+                                                            <input class="form-control disable" id="disabledInputMailFive" name="user" type="text" value="">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="formFileMailFive" class="form-label">Provide csv file consisting of recepient Email ID's</label>
+                                                            <input class="form-control" type="file" id="formFileMailFive" name="email" accept=".csv" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputSubjectMailFive" class="form-label">Subject of your Mail</label>
+                                                            <input type="text" class="form-control" id="InputSubjectMailFive" name="subject" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputBodyMailFive" class="form-label">Body of your Mail</label>
+                                                            <textarea class="form-control" id="InputBodyMailFive" rows="3" name="body" required></textarea>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputLinkMailFive" class="form-label">Link</label>
+                                                            <input type="url" class="form-control" id="InputLinkMailFive" rows="3" name="link" required></input>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputDateTimeMailFive">Schedule For</label>
+                                                            <input type="datetime-local" id="InputDateTimeMailFive" rows="3" name="date_and_time" required></input>
+                                                        </div>
+                                                        <button class="btn btn-primary" type="submit"  id="panelsStayOpen-collapseFive-btn-mail">
+                                                            Send
+                                                        </button>
+                                                    </form>
+                                                    <script>
+                                                        document.getElementById("disabledInputMailFive").value = sessionStorage.getItem("username")
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <script>
+                                            scheduleLink.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/email/schedule_link_with_message', {
+                                                    method: 'POST',
+                                                    body: new FormData(scheduleLink)
+                                                    }
+                                                );
+
+                                                if (response.status === 200) {
+                                                    alert('Message scheduled Successfully')
+                                                }
+
+                                                else if (response.status === 404) {
+                                                    alert('Past is out of your hands')
+                                                }
+                                            };
+                                        </script>
+                                    </div>
+
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" style="margin-top: 3%;">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <!-- Integration Modal 3-->
+        <div class="integration-modal modal fade" id="integrationModal3" tabindex="-1" aria-labelledby="integrationModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Integration Modal - Title-->
+                                    <h2 class="integration-modal-title text-secondary text-uppercase mb-0">Slack</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Integration Modal - Text-->
+                                    <div class="accordion" id="accordionPanelsStayOpenOne">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                Send a Message
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                            <div class="accordion-body">
+                                                <form class="form-inline" method="post" id="sendMessageSlack">
+                                                    <div class="mb-3">
+                                                        <label for="disabledInputSlackOne" class="form-label">User that's Logged In</label>
+                                                        <input class="form-control disable" id="disabledInputSlackOne" name="user" type="text" value="">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="InputSlackOne" class="form-label">Message</label>
+                                                        <input class="form-control" id="InputSlackOne" rows="3" name="message" required></input>
+                                                    </div>
+                                                    <button class="btn btn-primary" type="submit" id="panelsStayOpen-collapseOne-btn-slack">
+                                                        Send
+                                                    </button>
+                                                </form>
+                                                <script>
+                                                    document.getElementById("disabledInputSlackOne").value = sessionStorage.getItem("username")
+                                                </script>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <script>
+                                            sendMessageSlack.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/slack/message', {
+                                                    method: 'POST',
+                                                    body: new FormData(sendMessageSlack)
+                                                    }
+                                                );
+                                                if (response.status === 200) {
+                                                    alert("Message was sent successfully.")
+                                                }
+                                                if (response.status === 400) {
+                                                    alert("Error with the Connection.")
+                                                }
+                                            };
+
+                                        </script>
+
+
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                                Send a file with a message associated to it
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                            <div class="accordion-body">
+                                                <form class="form-inline" method="post" id="sendMessageWithFileSlack">
+                                                    <div class="mb-3">
+                                                        <label for="disabledInputSlackTwo" class="form-label">User that's Logged In</label>
+                                                        <input class="form-control disable" id="disabledInputSlackTwo" name="user" type="text" value="">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="FormFileSlackTwo" class="form-label">Choose a File</label>
+                                                        <input name="file" class="form-control" type="file" id="FormFileSlackTwo" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="InputSlackTwo" class="form-label">Message</label>
+                                                        <input name="message" class="form-control" id="InputSlackTwo" rows="3" required></textarea>
+                                                    </div>
+                                                    <button class="btn btn-primary" type="submit"  id="panelsStayOpen-collapseTwo-btn-slack">
+                                                        Send
+                                                    </button>
+                                                </form>
+                                                <script>
+                                                    document.getElementById("disabledInputSlackTwo").value = sessionStorage.getItem("username")
+                                                </script>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <script>
+                                            sendMessageWithFileSlack.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/slack/file_with_message', {
+                                                    method: 'POST',
+                                                    body: new FormData(sendMessageWithFileSlack)
+                                                    }
+                                                );
+                                                if (response.status === 200) {
+                                                    alert("Message was sent successfully.")
+                                                }
+                                                if (response.status === 400) {
+                                                    alert("Error with the Connection.")
+                                                }
+                                            };
+                                        </script>
+
+
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                                Send a link with a message associated to it
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                            <div class="accordion-body">
+                                                <form class="form-inline" method="post" id="sendLinkWithMessageSlack">
+                                                    <div class="mb-3">
+                                                        <label for="disabledInputSlackThree" class="form-label">User that's Logged In</label>
+                                                        <input class="form-control disable" id="disabledInputSlackThree" name="user" type="text" value="">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="InputMessageSlackThree" class="form-label">Message</label>
+                                                        <input class="form-control" id="InputMessageSlackThree" rows="3" name="message" required></input>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="InputLinkSlackThree" class="form-label">Link</label>
+                                                        <input type="url" class="form-control" id="InputLinkSlackThree" rows="3" name="link" required></input>
+                                                    </div>
+                                                    <button class="btn btn-primary" type="submit" id="panelsStayOpen-collapseThree-btn-slack">
+                                                        Send
+                                                    </button>
+                                                </form>
+                                                <script>
+                                                    document.getElementById("disabledInputSlackThree").value = sessionStorage.getItem("username")
+                                                </script>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <script>
+                                            sendLinkWithMessageSlack.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/slack/link_with_message', {
+                                                    method: 'POST',
+                                                    body: new FormData(sendLinkWithMessageSlack)
+                                                    }
+                                                );
+                                                if (response.status === 200) {
+                                                    alert("Message was sent successfully.")
+                                                }
+                                                if (response.status === 400) {
+                                                    alert("Error with the Connection.")
+                                                }
+                                            };
+
+                                        </script>
+
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                                    Schedule a Message
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                                <div class="accordion-body">
+                                                    <form class="form-inline" method="post" id="scheduleMessageSlack">
+                                                        <div class="mb-3">
+                                                            <label for="disabledInputSlackFour" class="form-label">User that's Logged In</label>
+                                                            <input class="form-control disable" id="disabledInputSlackFour" name="user" type="text" value="">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputMessageSlackFour" class="form-label">Message</label>
+                                                            <input class="form-control" id="InputMessageSlackFour" rows="3" name="message" required></input>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputDateTimeSlackFour">Schedule For</label>
+                                                            <input type="datetime-local" id="InputDateTimeSlackFour" rows="3" name="date_and_time" required></input>
+                                                        </div>
+                                                        <button class="btn btn-primary" type="submit" id="panelsStayOpen-collapseFour-btn-slack">
+                                                            Send
+                                                        </button>
+                                                    </form>
+                                                    <script>
+                                                        document.getElementById("disabledInputSlackFour").value = sessionStorage.getItem("username")
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <script>
+                                            scheduleMessageSlack.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/slack/schedule_message', {
+                                                    method: 'POST',
+                                                    body: new FormData(scheduleMessageSlack)
+                                                    }
+                                                );
+                                                if (response.status === 200) {
+                                                    alert("Message was sent successfully.")
+                                                }
+                                                if (response.status === 400) {
+                                                    alert("Error with the Connection.")
+                                                }
+                                            };
+
+                                        </script>
+
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                                    Schedule a link with a message associated to it
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                                                <div class="accordion-body">
+                                                    <form class="form-inline" method="post" id="scheduleLinkWithMessageSlack">
+                                                        <div class="mb-3">
+                                                            <label for="disabledInputSlackFive" class="form-label">User that's Logged In</label>
+                                                            <input class="form-control disable" id="disabledInputSlackFive" name="user" type="text" value="">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputMessageSlackFive" class="form-label">Message</label>
+                                                            <input class="form-control" id="InputMessageSlackFive" rows="3" name="message" required></input>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputLinkSlackFive" class="form-label">Link</label>
+                                                            <input type="url" class="form-control" id="InputLinkSlackFive" rows="3" name="link" required></input>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="InputDateTimeSlackFive">Schedule For</label>
+                                                            <input type="datetime-local" id="InputDateTimeSlackFive" rows="3" name="date_and_time" required></input>
+                                                        </div>
+                                                        <button class="btn btn-primary" onclick="scheduleLinkWithMessageSlack()" id="panelsStayOpen-collapseFive-btn-discord" style="margin-bottom: 3%;">
+                                                            Send
+                                                        </button>
+                                                    </form>
+                                                    <script>
+                                                        document.getElementById("disabledInputSlackFive").value = sessionStorage.getItem("username")
+                                                    </script> 
+                                                </div>       
+                                            </div>
+                                            <script>
+                                                scheduleLinkWithMessageSlack.onsubmit = async (e) => {
+                                                e.preventDefault();
+                                                let response = await fetch('http://127.0.0.1:8000/slack/schedule_link', {
+                                                    method: 'POST',
+                                                    body: new FormData(scheduleLinkWithMessageSlack)
+                                                    }
+                                                );
+                                                if (response.status === 200) {
+                                                    alert("Message was sent successfully.")
+                                                }
+                                                if (response.status === 400) {
+                                                    alert("Error with the Connection.")
+                                                }
+                                            };
+                                            </script>
+                                        </div>
+
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" style="margin-top: 3%;">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
