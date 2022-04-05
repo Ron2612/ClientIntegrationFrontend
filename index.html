@@ -222,7 +222,7 @@
                                         <script>
                                             sendMessageDiscord.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/discord/message', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/discord/message', {
                                                     method: 'POST',
                                                     body: new FormData(sendMessageDiscord)
                                                     }
@@ -269,7 +269,7 @@
                                         <script>
                                             sendMessageWithFileDiscord.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/discord/file_with_message', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/discord/file_with_message', {
                                                     method: 'POST',
                                                     body: new FormData(sendMessageWithFileDiscord)
                                                     }
@@ -316,7 +316,7 @@
                                         <script>
                                             sendLinkWithMessageDiscord.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/discord/link_with_message', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/discord/link_with_message', {
                                                     method: 'POST',
                                                     body: new FormData(sendLinkWithMessageDiscord)
                                                     }
@@ -361,7 +361,7 @@
                                         <script>
                                             scheduleMessageDiscord.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/discord/schedule_message', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/discord/schedule_message', {
                                                     method: 'POST',
                                                     body: new FormData(scheduleMessageDiscord)
                                                     }
@@ -415,7 +415,7 @@
                                             <script>
                                                 scheduleLinkWithMessageDiscord.onsubmit = async (e) => {
                                                     e.preventDefault();
-                                                    let response = await fetch('http://127.0.0.1:8000/discord/schedule_link_with_message', {
+                                                    let response = await fetch('https://pacific-oasis-42903.herokuapp.com/discord/schedule_link_with_message', {
                                                         method: 'POST',
                                                         body: new FormData(scheduleLinkWithMessageDiscord)
                                                         }
@@ -502,7 +502,7 @@
                                         <script>
                                             sendMessageMail.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/email', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/email', {
                                                     method: 'POST',
                                                     body: new FormData(sendMessageMail)
                                                     }
@@ -555,7 +555,7 @@
                                         <script>
                                             sendMessageWithFilesMail.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/email/file_with_message', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/email/file_with_message', {
                                                     method: 'POST',
                                                     body: new FormData(sendMessageWithFilesMail)
                                                     }
@@ -607,7 +607,7 @@
                                         <script>
                                             sendLinkWithMessageMail.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/email/link_with_message', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/email/link_with_message', {
                                                     method: 'POST',
                                                     body: new FormData(sendLinkWithMessageMail)
                                                     }
@@ -661,7 +661,7 @@
                                         <script>
                                             scheduleMessage.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/email/schedule_message', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/email/schedule_message', {
                                                     method: 'POST',
                                                     body: new FormData(scheduleMessage)
                                                     }
@@ -724,7 +724,7 @@
                                         <script>
                                             scheduleLink.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/email/schedule_link_with_message', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/email/schedule_link_with_message', {
                                                     method: 'POST',
                                                     body: new FormData(scheduleLink)
                                                     }
@@ -804,7 +804,7 @@
                                         <script>
                                             sendMessageSlack.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/slack/message', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/slack/message', {
                                                     method: 'POST',
                                                     body: new FormData(sendMessageSlack)
                                                     }
@@ -854,7 +854,7 @@
                                         <script>
                                             sendMessageWithFileSlack.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/slack/file_with_message', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/slack/file_with_message', {
                                                     method: 'POST',
                                                     body: new FormData(sendMessageWithFileSlack)
                                                     }
@@ -903,7 +903,7 @@
                                         <script>
                                             sendLinkWithMessageSlack.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/slack/link_with_message', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/slack/link_with_message', {
                                                     method: 'POST',
                                                     body: new FormData(sendLinkWithMessageSlack)
                                                     }
@@ -953,7 +953,7 @@
                                         <script>
                                             scheduleMessageSlack.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/slack/schedule_message', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/slack/schedule_message', {
                                                     method: 'POST',
                                                     body: new FormData(scheduleMessageSlack)
                                                     }
@@ -1006,7 +1006,7 @@
                                             <script>
                                                 scheduleLinkWithMessageSlack.onsubmit = async (e) => {
                                                 e.preventDefault();
-                                                let response = await fetch('http://127.0.0.1:8000/slack/schedule_link', {
+                                                let response = await fetch('https://pacific-oasis-42903.herokuapp.com/slack/schedule_link', {
                                                     method: 'POST',
                                                     body: new FormData(scheduleLinkWithMessageSlack)
                                                     }

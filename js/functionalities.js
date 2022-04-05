@@ -10,7 +10,7 @@ function showLogs() {
       redirect: 'follow'
     };
     
-    fetch("http://127.0.0.1:8000/logs", requestOptions)
+    fetch("https://pacific-oasis-42903.herokuapp.com/logs", requestOptions)
       .then(response => response.text())
       .then(result => {
         var blob = new Blob([result], { type: "text/plain;charset=utf-8" });
